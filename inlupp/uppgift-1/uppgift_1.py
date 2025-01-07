@@ -8,4 +8,4 @@ def funktions_namn(variabel_namn: datatyp) -> returtyp:
     """
     Skriv beskrivning här.
     """
-fcbgcgchgcghcgh
+print (x)
