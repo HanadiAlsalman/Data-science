@@ -9,4 +9,3 @@ def test_is_odd():
     assert is_odd(-1) == True
 
 
-
