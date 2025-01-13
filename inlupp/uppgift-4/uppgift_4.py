@@ -1,5 +1,7 @@
 # Uppgift 4
 # Skapa en funktion fibonacci(n) som returnerar en lista med de första n Fibonacci-talen.
+ 
+# f(n) = f(n-1) + f(n-2)   om n> 1 
 
 def f(n: int) -> int:
     if n <= 0:
@@ -14,6 +16,7 @@ def fibonacci(n: int) -> list:
     for i in range(n):
         fib_list.append(f(i))
     return fib_list
+
 print(fibonacci(5))
 print(fibonacci(0))
 print(fibonacci(1))
